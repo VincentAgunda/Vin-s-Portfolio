@@ -84,12 +84,15 @@ body.dark-theme {
 }
 
 /* Add this to your styles.css file */
-#home {
+/* Add this to your styles.css file */
+# {
   background-image: url('../images/background.jpg'); /* Replace with the path to your background image */
   background-size: cover; /* Adjust this if you want the image to cover the entire section */
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Ensures the image doesn't repeat */
 }
+
+
 
 
 /*========== Button Dark/Light ==========*/
@@ -349,6 +352,13 @@ img {
 
 .home__description {
   margin-bottom: var(--mb-2);
+  display: flex;
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+  background-color: #c0eae7;
+  border-radius: 15px;
+  padding: 0.5rem; 
+
 }
 
 .home__scroll {
@@ -385,7 +395,7 @@ img {
   background-color: var(--first-color);
   color: #ffff;
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 25px;
   font-weight: var(--font-medium);
 }
 
@@ -438,9 +448,16 @@ img {
 }
 
 .about__description {
+  display: flex;
   text-align: center;
   margin-bottom: var(--mb-2-5);
+  background-color: #1f7551;
+  border-radius: 25px;
+  padding: 1rem;
+  color: whitesmoke; 
 }
+
+
 
 .about__info {
   display: flex;
@@ -778,6 +795,13 @@ img {
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
+  margin-bottom: var(--mb-0-75);
+  display: flex;
+  background-color: #c0eae7;
+  border-radius: 20px;
+  padding: 1rem;
+  color: whitesmoke;
+  
 }
 
 .portfolio__content {
@@ -786,8 +810,9 @@ img {
 
 .portfolio__img {
   width: 265px;
-  border-radius: 0.5rem;
+  border-radius: 20px;
   justify-self: center;
+  height: auto;
 }
 
 .portfolio__title {
@@ -797,6 +822,14 @@ img {
 
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
+  display: flex;
+  text-align: center;
+  background-color: #ff7c60;
+  border-radius: 20px;
+  padding: 2rem;
+  color: whitesmoke;
+  width: 300px;
+  
 }
 
 .portfolio__button:hover .button__icon {
@@ -810,7 +843,7 @@ img {
 
 .swiper-portfolio-icon {
   font-size: 2rem;
-  color: var(--first-color);
+  color:#ff7c60;
 }
 
 .swiper-button-prev {
@@ -961,7 +994,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: whitesmoke;
   padding: 2rem 0 3rem;
 }
 
