@@ -85,12 +85,6 @@ body.dark-theme {
 
 /* Add this to your styles.css file */
 /* Add this to your styles.css file */
-# {
-  background-image: url('../images/background.jpg'); /* Replace with the path to your background image */
-  background-size: cover; /* Adjust this if you want the image to cover the entire section */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
-}
 
 
 
@@ -1386,3 +1380,13 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.hidden {
+  opacity: 0;
+  transition: opacity 1.5s ease-out;
+}
+
+.show {
+  opacity: 1;
+}
+
+

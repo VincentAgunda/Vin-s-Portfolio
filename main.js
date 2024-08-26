@@ -210,3 +210,25 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+// Create an IntersectionObserver instance
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    // Log the entry to the console
+    console.log(entry);
+    
+    // Check if the element is intersecting (visible in the viewport)
+    if (entry.isIntersecting) {
+      // Add the 'show' class if the element is in view
+      entry.target.classList.add('show');
+    } else {
+      // Remove the 'show' class if the element is out of view
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+// Select all elements with the class 'hidden' to observe
+const hiddenElements = document.querySelectorAll('.hidden');
+
+// Attach the observer to each hidden element
+hiddenElements.forEach((el) => observer.observe(el));
