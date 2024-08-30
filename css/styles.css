@@ -13,11 +13,11 @@
   --first-color: #1f7551;
   --first-color-second: #ff7c60;
   --first-color-alt: #ef4444;
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --first-color-lighter: #f2f1e3;
   --title-color: rgb(45, 45, 79);
   --text-color: dark;
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
+  --input-color: #e38a90;
   --body-color: white;
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
@@ -313,7 +313,7 @@ img {
 
 .home__social-icon {
   font-size: 1.25rem;
-  color: var(--first-color);
+  color: #cb3b1c;
 }
 
 .home__social-icon:hover {
@@ -445,7 +445,7 @@ img {
   display: flex;
   text-align: center;
   margin-bottom: var(--mb-2-5);
-  background-color: #1f7551;
+  background-color: #cb3b1c;
   border-radius: 25px;
   padding: 1rem;
   color: whitesmoke; 
@@ -692,7 +692,7 @@ img {
 
 .services__content {
   position: relative;
-  background-color: #c0eae7;
+  background-color: #e38a90;
   padding: 3.5rem 0.5rem 1.25rem 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
@@ -791,7 +791,7 @@ img {
   overflow: initial;
   margin-bottom: var(--mb-0-75);
   display: flex;
-  background-color: #c0eae7;
+  background-color: #e38a90;
   border-radius: 20px;
   padding: 1rem;
   color: whitesmoke;
@@ -867,7 +867,7 @@ img {
 }
 
 .project__bg {
-  background-color: var(--first-color-second);
+  background-color: #e38a90;
   padding-top: 3rem;
 }
 
